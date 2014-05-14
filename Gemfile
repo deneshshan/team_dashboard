@@ -9,7 +9,8 @@ gem "sass-rails", "~> 4.0.0"
 gem "bootstrap-sass", "~> 2.3.2"
 gem "bootswatch-rails"
 
-gem "mysql2"
+gem 'sqlite3', '~> 1.3.8'
+gem 'activerecord-postgresql-adapter', '~> 0.0.1'
 
 # on windows replace with thin gem
 gem "unicorn"
@@ -34,6 +35,7 @@ group :test, :development do
   gem "rspec-rails"
   gem "factory_girl_rails"
   gem "mocha", :require => false
+  gem "memory_test_fix", '~> 0.2.2'
 end
 
 group :development do

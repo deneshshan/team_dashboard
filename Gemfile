@@ -36,6 +36,7 @@ group :test, :development do
   gem "factory_girl_rails"
   gem "mocha", :require => false
   gem "memory_test_fix", '~> 0.2.2'
+  gem "rake"
 end
 
 group :development do

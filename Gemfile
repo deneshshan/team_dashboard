@@ -37,6 +37,9 @@ group :test, :development do
   gem "mocha", :require => false
   gem "memory_test_fix", '~> 0.2.2'
   gem "rake"
+  gem "pry"
+  gem "pry-rails"
+  gem "pry-doc"
 end
 
 group :development do

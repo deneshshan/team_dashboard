@@ -5,7 +5,7 @@ gem "rails", "~> 4.0.0"
 # required by newrelic_api gem
 gem "activeresource", "~> 4.0.0"
 
-gem "sass-rails", "~> 4.0.0"
+gem "sass-rails", "~> 4.0.2"
 gem "bootstrap-sass", "~> 2.3.2"
 gem "bootswatch-rails"
 
@@ -40,6 +40,8 @@ group :test, :development do
   gem "pry"
   gem "pry-rails"
   gem "pry-doc"
+  gem "pry-debugger"
+  gem 'hirb'
 end
 
 group :development do
@@ -53,3 +55,5 @@ group :production do
 end
 
 ruby "2.0.0"
+
+gem "td_widgets", :path => "../gems/td_widgets"

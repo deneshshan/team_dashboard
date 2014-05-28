@@ -37,4 +37,7 @@
 
 //= require ui-bootstrap-custom-0.5.0
 
+//= require d3.min
+//= require angular-charts
+
 //= require_tree .

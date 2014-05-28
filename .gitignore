@@ -29,3 +29,11 @@
 /node_modules
 
 npm-debug.log
+
+# Ignore all td_widgets files and directories
+/app/models/sources/chart
+/app/assets/javascripts/templates/widgets/chart
+/app/assets/javascripts/widgets/chart
+
+# Ignore vim tags file
+tags

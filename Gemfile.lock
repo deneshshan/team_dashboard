@@ -3,6 +3,7 @@ PATH
   specs:
     td_widgets (0.0.1)
       rails (~> 4.0.0)
+      railties
 
 GEM
   remote: https://rubygems.org/
@@ -167,7 +168,7 @@ GEM
       libv8 (~> 3.16.14.0)
       ref
     thor (0.19.1)
-    thread_safe (0.3.3)
+    thread_safe (0.3.4)
     tilt (1.4.1)
     treetop (1.4.15)
       polyglot

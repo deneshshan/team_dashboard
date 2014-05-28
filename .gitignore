@@ -34,6 +34,8 @@ npm-debug.log
 /app/models/sources/chart
 /app/assets/javascripts/templates/widgets/chart
 /app/assets/javascripts/widgets/chart
+/vendor/assets/javascripts/angular-charts.min.js
+/vendor/assets/javascripts/d3.min.js
 
 # Ignore vim tags file
 tags
